@@ -16,7 +16,11 @@ char* change_case(char* word)
     
     for(int i = 0; i < length ; i++) {
         // convert lowercase to uppercase
-        if(word[i] >= 'a' && word[i] <= 'z') 
+        if (word[i]==' ')
+        {
+            word[i]=' ';
+        }
+        else if (word[i] >= 'a' && word[i] <= 'z') 
         {
             word[i] = word[i] - 32;
         } 

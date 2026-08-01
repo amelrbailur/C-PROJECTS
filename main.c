@@ -3,7 +3,7 @@
 
 int main() 
 {
-    char word[] = "hello"; 
+    char word[] = "hello how are you"; 
     
     // Call function and print the modified string
     printf("%s\n", change_case(word)); 
