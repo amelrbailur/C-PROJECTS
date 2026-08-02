@@ -4,5 +4,7 @@
 int main()
 {
     int exponent = 2;
+
+    //call the function and print power of 2
     printf("%d",power_of_2(exponent));
 }
